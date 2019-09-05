@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="style.css" />
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+	<div id="here"></div>
+
+	<script src="my.js"></script>
+    <script>
+		var m = Monument("#here");
+		m.create("block").size(50,50,200);
+		m.create("block").size(100,400,20).position(50,0,0).setColor("#222f3e");
+		m.create("block").size(20,40,20).position(90,20,2).setColor("#ecf0f1");
+		m.create("block").size(20,40,20).position(90,90,2).setColor("#ecf0f1");
+		m.create("block").size(20,40,20).position(90,160,2).setColor("#ecf0f1");
+		m.create("block").size(20,40,20).position(90,230,2).setColor("#ecf0f1");
+		m.create("block").size(20,40,20).position(90,300,2).setColor("#ecf0f1");
+		m.create("block").size(20,30,20).position(90,370,2).setColor("#ecf0f1");
+		m.create("block").size(100,50,50).position(50,0,100);
+		m.create("block").size(50,50,200).position(150,0,0);
+		m.create("block").size(50,350,25).position(150,50,0).setColor("#1dd1a1");
+		m.create("block").size(50,400,25).position(200,0,0).setColor("#1dd1a1");
+		m.create("block").size(50,350,25).position(0,50,0).setColor("#1dd1a1");
+		m.create("block").size(20,20,80).position(180,350,25).setColor("#f6b93b");
+		m.create("block").size(60,60,120).position(160,330,105).setColor("#b8e994");
+		m.create("block").size(50,50,5).position(165,335,225).setColor("#78e08f");
+		m.create("block").size(20,20,20).position(20,20,190).setColor("#432b12");
+	</script>
+</body>
+</html>
